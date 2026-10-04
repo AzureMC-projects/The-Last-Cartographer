@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "the_last_cartographer",
+  "version": "${version}",
+  "name": "The Last Cartographer",
+  "description": "A deep exploration and discovery mod where the world itself tells the story.",
+  "authors": ["AzureMC Projects"],
+  "contact": {"sources": "https://github.com/AzureMC-projects/The-Last-Cartographer"},
+  "license": "MIT",
+  "icon": "assets/the_last_cartographer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.azuremc.thelastcartographer.TheLastCartographer"],
+    "client": ["dev.azuremc.thelastcartographer.client.TheLastCartographerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3.x",
+    "fabric-api": ">=0.160.7+26.3"
+  }
+}
